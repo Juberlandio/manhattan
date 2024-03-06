@@ -1,5 +1,6 @@
 .introducao h1{
 height: 100vh;
+width: 100%;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -22,6 +23,11 @@ background-size: cover;
 }
 section.parallax-1{
 background-image: url(/img/parallax-imagem1.png);
+}
+@media (max-width: 1000px) {
+.introducao h1{
+font-size: 4rem;
+}
 }
 @media (max-width: 600px) {
 .introducao h1{
