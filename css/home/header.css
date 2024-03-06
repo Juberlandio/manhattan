@@ -1,0 +1,29 @@
+.cabecalho-bg {
+background: var(--cor-p3);
+position: fixed;
+width: 100%;
+z-index: 3;
+}
+.cabecalho {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+height: 83px;
+}
+.cabecalho nav .menu {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+list-style: none;
+}
+.cabecalho nav .menu li{
+padding: 10px 10px;
+}
+@media (max-width: 600px) {
+.cabecalho {
+height: auto;
+justify-content: center;
+}
+}

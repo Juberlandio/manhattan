@@ -1,0 +1,21 @@
+""".sobre-bg {
+background: var(--cor-p1);
+}
+.sobre-cafe {
+width: 100%;
+height: 323px;
+}
+.sobre-cafe h2{
+padding-top: 57px;
+padding-bottom: 35px;
+}
+.sobre-cafe p{
+padding-bottom: 56px;
+text-align: justify;
+}
+@media (max-width: 600px) {
+.sobre-cafe {
+width: 100%;
+height: auto;
+}
+}
