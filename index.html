@@ -14,8 +14,8 @@
   <script>document.documentElement.className += ' js';</script>
 </head>
 <body>
-    <header class="cabecalho-bg" id="home">
-      <div class="cabecalho container" data-menu="suave">
+    <header class="cabecalho-bg" >
+      <div class="cabecalho container" data-menu="suave" >
           <a href="index.html"><img src="img/logo.png" width="68.96" height="69" alt="Mulher bebendo café"></a>
           <nav>
             <ul class="menu font-1-s cor-0">
@@ -27,7 +27,7 @@
       </div>
     </header>
     <main>
-      <section class="introducao-bg parallax parallax-1">
+      <section class="introducao-bg parallax parallax-1" id="banner">
           <div class="introducao">
               <h1 class="font-2-xxxl cor-0 center">MANHATTAN - COFFEE HOUSE</h1>
           </div>
@@ -62,7 +62,7 @@
           </div>
         </div>
       </section>
-      <section class="horarios-bg parallax-h parallax-4">
+      <section class="horarios-bg parallax-h parallax-4" id="horarios">
         <div class="horarios">
              <h2 class="horarios-texto font-1-xxl cor-0 center">HORÁRIOS DE FUNCIONAMENTO</h2>
              <ul class="itens-container cor-0">
@@ -107,7 +107,7 @@
     </main>
     <footer class="rodape-bg">
       <div class="seta">
-        <a href="#"><img src="img/seta-para-cima.png" alt="Seta para cima"></a>
+        <a href="#banner" aria-label="Voltar ao topo"><img src="img/seta-para-cima.png" alt=""></a>
      </div>
       <div class="rodape">
          <p class="font-1-x cor-0 center">©Manhattan - Coffee House - Todos os direitos reservados<br>
