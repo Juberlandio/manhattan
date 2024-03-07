@@ -15,7 +15,7 @@ background-size: cover;
 section.parallax-4 {
 width: 100%;
 height: 100vh;
-background-image: url(../img/cafeteria.jpg);
+background-image: url(/img/cafeteria.jpg);
 }
 .horarios .itens-container {
 box-sizing: border-box;
@@ -37,7 +37,7 @@ flex-wrap: nowrap;
 justify-content: space-between;
 align-items: center;
 }
-.horarios .item h2{
+.horarios .item p{
 margin: 20px 0px 20px 0px;
 padding: 0px;
 text-transform: uppercase;
