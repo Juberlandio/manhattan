@@ -23,10 +23,13 @@ max-width: 708px;
 margin-left: auto;
 margin-right: auto;
 list-style: none;
+padding: 20px;
 }
 .horarios-texto {
 padding-top: 180px;
 padding-bottom: 74px;
+padding-left: 20px;
+padding-right: 20px;
 }
 .horarios .item {
 display: flex;
