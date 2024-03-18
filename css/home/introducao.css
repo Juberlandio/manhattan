@@ -24,7 +24,7 @@ background-size: cover;
 -o-background-size: cover;
 }
 section.parallax-1{
-background-image: url(../img/parallax-imagem1.png);
+background-image: url('../img/parallax-imagem1.png');
 }
 @media (max-width: 1000px) {
 .introducao h1{

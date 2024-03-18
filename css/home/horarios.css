@@ -56,7 +56,7 @@ flex: 0 1 97px;
 .horarios .item .linha{
 background: var(--cor-0);
 height: 1px;
-flex: 1 1 auto;
+flex: 1 1 0;  /* grow - crecimento, shrink - não diminua menos de 162, basis - tamanho*/
 }
 .horarios .item .esp {
 text-align: right;
