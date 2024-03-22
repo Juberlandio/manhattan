@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MANHATTAN - COFFEE HOUSE</title>
-  <meta name="description" content="Desenvolvedor Front End e UX/UI Designer">
+  <meta name="description" content="Manhattan Coffee House">
   <link rel="icon" href="./Favicon.svg" type="image/svg+xml">
   <link rel="preload" href="css/style.min.css" as="style">
   <link rel="stylesheet" href="css/style.min.css">
@@ -18,7 +18,7 @@
     <header class="cabecalho-bg">
       <div class="cabecalho container" data-menu="suave" >
           <a href="index.html"><img src="img/logo.png" width="68.96" height="69" alt="Mulher bebendo café"></a>
-          <nav>
+          <nav aria-label="primária">
             <ul class="menu font-1-s cor-0">
               <li><a href="#informacoes">Informações</a></li>
               <li><a href="#contatos">Contatos</a></li>
@@ -28,29 +28,29 @@
       </div>
     </header>
     <main>
-      <section class="introducao-bg parallax parallax-1" id="banner">
+      <section class="introducao-bg parallax parallax-1" aria-labelledby="manhattan" id="banner">
           <div class="introducao">
-              <h1 class="font-2-xxxl cor-0 center">MANHATTAN - COFFEE HOUSE</h1>
+              <h1 id="manhattan" class="font-2-xxxl cor-0 center">MANHATTAN - COFFEE HOUSE</h1>
           </div>
       </section>
-      <section class="sobre-cafe-bg" id="informacoes">
+      <section class="sobre-cafe-bg" aria-labelledby="experimente" id="informacoes">
         <div class="sobre-cafe container">
-            <h2 class="font-1-xl cor-p2 center">EXPERIMENTE O MELHOR CAFÉ DA CIDADE</h2>
+            <h2 id="experimente" class="font-1-xl cor-p2 center">EXPERIMENTE O MELHOR CAFÉ DA CIDADE</h2>
             <p class="font-3-s1 cor-p3">O café não é uma simples bebida que foi preparada por alguém. O café é momento e nós mostraremos isso. Frases como “Que tal tomarmos um café?” ou até então “Vamos fazer um café?” são demonstrações de que um dos momentos que mais reforçam os laços para com o próximo está finalmente por acontecer. Fraco ou forte? Com ou sem açúcar? Você deseja açúcar ou adoçante? Estas são frases que ouvimos em vários lugares. Em quase todos os locais onde há pessoas há também café. Parecemos intrínsecos ao café. Aqui na Manhattan serviremos para você com muito carinho o nosso querido e amado Amaro’s Coffe diretamente do nosso cafezal em Minas Gerais. Para todos nós, café é coisa séria e merece todo o cuidado.</p>
         </div>
       </section>
-      <section class="cafe-bg parallax parallax-2">
+      <section class="cafe-bg parallax parallax-2" aria-label="Café">
         <div class="cafe center">
             <h2 class="font-2-l cor-0">A vida só começa depois do café!</h2>
         </div>
       </section>
-      <section class="sobre-cafe-bg">
+      <section class="sobre-cafe-bg" aria-label="Conheça o café">
         <div class="sobre-cafe container">
             <h2 class="font-1-xl cor-p2 center">CONHEÇA O CAFÉ GOURMET MANHATTAN</h2>
             <p class="font-3-s1 cor-p3">As características desse tipo do café gourmet da Manhattan são muito marcantes. O seu corpo vai depender da variedade do blend: quanto mais “pesado” ele for na boca, maior o corpo. Quanto menor a sua pesagem, menor o corpo. O nosso café gourmet é o mais bem avaliado no processo de produção, para que ele não venha com nenhum tipo de defeito. O aroma é bem perceptível e o consumidor consegue sentir nitidamente, sendo que ele pode variar entre 4 aromas: florado, cítrico, achocolatado, frutado. Essas variações são consequências dos grãos do tipo Arábica. Tudo isso vai depender da torra, quanto mais clara ela for, maior será a acidez.</p>
         </div>
       </section>
-      <section class="contato-bg parallax parallax-3" id="contatos">
+      <section class="contato-bg parallax parallax-3" aria-label="Contato" id="contatos">
         <div class="contato container">
           <div class="item-contato-1 center">
             <h2 class="font-2-l cor-0 ">Contatos & Endereço</h2>
@@ -63,7 +63,7 @@
           </div>
         </div>
       </section>
-      <section class="horarios-bg parallax-h parallax-4" id="horarios">
+      <section class="horarios-bg parallax-h parallax-4" aria-label="Horarios" id="horarios">
         <div class="horarios">
              <h2 class="horarios-texto font-1-xxl cor-0 center">HORÁRIOS DE FUNCIONAMENTO</h2>
              <ul class="itens-container cor-0">
@@ -106,7 +106,7 @@
         </div>
       </section>
     </main>
-    <footer class="rodape-bg">
+    <footer class="rodape-bg" aria-label="Rodapé">
       <div class="seta">
         <a href="#banner" aria-label="Voltar ao topo"><img src="img/seta-para-cima.png" alt=""></a>
      </div>
