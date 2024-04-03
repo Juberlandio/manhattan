@@ -18,9 +18,13 @@ justify-content: center;
 align-items: center;
 list-style: none;
 text-transform: uppercase;
+
 }
-.cabecalho nav .menu li{
-padding: 10px 10px;
+.cabecalho li {
+  padding: 15px 12px;
+}
+.cabecalho nav .menu a{
+  padding: 15px 12px;
 }
 @media (max-width: 600px) {
 .cabecalho {
