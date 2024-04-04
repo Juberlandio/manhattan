@@ -20,14 +20,20 @@ list-style: none;
 text-transform: uppercase;
 }
 .cabecalho li {
-  padding: 24px 3px;
+padding: 24px 10px;
 }
 .cabecalho nav .menu a{
-  padding: 24px 5px;
+padding: 24px 10px;
 }
 @media (max-width: 600px) {
 .cabecalho {
 height: auto;
 justify-content: center;
+}
+.cabecalho li {
+padding: 24px 3px;
+}
+.cabecalho nav .menu a{
+padding: 24px 5px;
 }
 }
