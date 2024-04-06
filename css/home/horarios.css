@@ -63,7 +63,7 @@ text-align: right;
 }
 @media (max-width: 600px) {
 .horarios-texto {
-padding-top: 60px;
+padding-top: 100px;
 padding-bottom: 30px;
 padding-left: 20px;
 padding-right: 20px;
